@@ -11,7 +11,7 @@ class GardenGnome
   end
   
   def gnaw
-    puts "Gnawing on a tree!!!"
+   "Gnawing on a tree!!!"
   end
 end 
 GardenGnome.new
