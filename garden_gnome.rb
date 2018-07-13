@@ -16,6 +16,7 @@ class GardenGnome
   
   def shout 
     puts "GNARLY!!!"
+  end
 end 
 GardenGnome.new
 
