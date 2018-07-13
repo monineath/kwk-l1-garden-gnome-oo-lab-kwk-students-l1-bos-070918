@@ -4,14 +4,14 @@ class GardenGnome
   attr_reader :personality, :hat_color
   
   
-  def initialize(hat_color)
+  def initialize(hat_color = "red")
     @personality = "evil"
-    @hat_color = hat_color
+
   
     
   end
 end 
-GardenGnome.new("red")
+GardenGnome.new
 
 
   
